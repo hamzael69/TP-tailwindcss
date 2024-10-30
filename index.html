@@ -1,46 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="./css/output.css">
-  
-  <title>DevFoxie | News homepage</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./css/output.css" />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <title>DevFoxie | News homepage</title>
 
-  Home
-  New
-  Popular
-  Trending
-  Categories
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class=" mx-4 flex flex-col gap-4 my-4">
+    <header>
+      <navbar class="flex justify-between">
+        <img src="./assets/images/logo.svg" alt="image du logo"/>
+        <img src="./assets/images/icon-menu.svg" alt="icone du menu"  />
+        <!-- Home
+          New
+          Popular
+          Trending
+          Categories -->
+      </navbar>
+    </header>
+    <main class="flex flex-col gap-4">
+    <img src="./assets/images/image-web-3-mobile.jpg" alt="">
+    <h1 class= "text-5xl font-bold">The Bright Future of Web 3.0?</h1>
 
-  The Bright Future of Web 3.0?
+  <p class="text-gray-600">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+  But is it really fulfilling its promise?</p>
 
-  We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
-  But is it really fulfilling its promise?
+  <a class="bg-primary-red w-[50%] h-12 flex text-white font-medium text-lg justify-center items-center">Read more</a>
 
-  Read more
+  <section class="bg-blue-950 p-4 flex flex-col gap-4">
+  <h2 class="text-yellow-600 font-semibold text-4xl">New </h2>
+  <article>
+  <h3 class="text-white font-medium text-2xl flex flex-col gap-8">Hydrogen VS Electric Cars</h3>
+  <p class="text-white text-lg">Will hydrogen-fueled cars ever catch up to EVs?</p>
+</article>
+<hr class="w-[90%] " />
+<article>
+  <h3 class="text-white font-medium text-2xl">The Downsides of AI Artistry</h3>
+  <p class="text-white text-lg">What are the possible adverse effects of on-demand AI image generation?</p>
+</article>
+<hr/>
+<article>
+  <h3 class="text-white font-medium text-2xl">Is VC Funding Drying Up?</h3>
+  <p class="text-white text-lg">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+</article>
 
-  New 
-
-  Hydrogen VS Electric Cars
-  Will hydrogen-fueled cars ever catch up to EVs?
-
-  The Downsides of AI Artistry
-  What are the possible adverse effects of on-demand AI image generation?
-
-  Is VC Funding Drying Up?
-  Private funding by VC firms is down 50% YOY. We take a look at what that means.
-
+</section>
   01
   Reviving Retro PCs
   What happens when old PCs are given modern upgrades?
@@ -52,10 +77,13 @@
   03
   The Growth of Gaming
   How the pandemic has sparked fresh opportunities.
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.dev-foxie.com" target="_blank">DevFoxie</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.dev-foxie.com" target="_blank">DevFoxie</a>. Coded by
+      <a href="#">Your Name Here</a>.
+    </div>
+    </main>
   </div>
-</body>
+  </body>
 </html>
